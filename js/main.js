@@ -14,6 +14,7 @@ Para esto seguiremos la siguiente estructura/instrucciones en los pasos:
 
 */
 
+/*Inicio de ejercicio guiado*/
 
 // Crearemos la funcion para arrastrar
 function drag(ev){
@@ -37,7 +38,7 @@ function drop(ev){
   ev.target.appendChild(document.getElementById(id_foto)); // hacemos que se haga parte del contenedor padre con appendChild.
 
 }
-
+/*Fin ejercicio guiado*/
 
 function agregaPosteo() {
 
